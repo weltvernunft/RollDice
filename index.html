@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/308b286963.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Roll Dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Buttons -->
+      <div class="btns">
+        <button class="new-btn">🔄 new game</button>
+        <div class="dice"></div>
+        <div class="btm-btn">
+          <button class="roll-dice-btn" id="roll-dice-btn">🎲 roll dice</button>
+          <button class="hold-btn" id="hold-btn">🔒 hold</button>
+        </div>
+        <!-- Buttons -->
+      </div>
+      <div class="split left">
+        <!-- Content in Split -->
+        <div class="player">
+          <h1>Player 1</h1>
+          <div class="count l">21</div>
+        </div>
+        <div class="current">
+          <h3>Current</h3>
+          <div class="current-c l">12</div>
+        </div>
+        <!-- End of Content in Split -->
+      </div>
+      <div class="split right">
+        <!-- Content in Split -->
+        <div class="player">
+          <h1>Player 2</h1>
+          <div class="count r">13</div>
+        </div>
+        <div class="current">
+          <h3>Current</h3>
+          <div class="current-c r">0</div>
+        </div>
+        <!-- End of Content in Split -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
